@@ -41,8 +41,8 @@
 				/*Максимально подвижный элемент*/
 				max=temp[0];
 				for (k=0; k < n; k++) {
-						if (temp[k] > max)
-						max=temp[k];
+					if (temp[k] > max)
+					max=temp[k];
 				}
 				/*Ключ максимально подвижного элемента*/
 				for (k=0; a[k] != max; k++);
